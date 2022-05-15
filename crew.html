@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="crew bg-dark text-white">
+    <a href="#main" class="skip-to-content">Skip to content</a>
+    <header class="flex primary-header" style="padding-inline: 2em;">
+
+        <!-- logo -->
+        <div>
+            <img src="assets/shared/logo.svg" alt="space tourism logo" class="logo">
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span aria-expanded="false" class="sr-only">Menu</span></button>
+
+        <!-- navigation home links -->
+        <nav>
+            <ul id="primary-navigation" data-visible="false" style="list-style: none; float: right;" class="primary-navigation underline-indicators">
+                <li class="active "><a style="text-decoration: none; color: white; " class="uppercase ff-sans-cond fs-300 letter-spacing-1" href="index.html"><span aria-hidden="true" style="font-weight: bolder;" class="text-accent">00</span> Home</a></li>
+                <li><a style="text-decoration: none; color: white; " class="uppercase ff-sans-cond fs-300 letter-spacing-1" href="destination.html"><span aria-hidden="true" style="font-weight: bolder;" class="text-accent">01</span> Destination</a></li>
+                <li><a style="text-decoration: none; color: white; " class="uppercase ff-sans-cond fs-300 letter-spacing-1" href="crew.html"><span aria-hidden="true" style="font-weight: bolder;" class="text-accent">02</span> Crew</a></li>
+                <li><a style="text-decoration: none; color: white; " class="uppercase ff-sans-cond fs-300 letter-spacing-1" href="technology.html"><span aria-hidden="true" style="font-weight: bolder;" class="text-accent">03</span> Technology</a></li>
+
+        </nav>
+
+    </header>
+
+    <main id="main" class="grid-container grid-container--crew text-white">
+        
+        
+        <h1 class="numbered-title uppercase ff-sans-cond fs-700 letter-spacing-3 text-lightweight"><span class="text-accent">02</span> Meet your crew</h1>
+        <img style="place-items: center;" src="assets/crew/image-douglas-hurley.png" alt="">
+        
+
+        
+            <div style="" class=" flex dot-indicators">
+                <button aria-selected="true" class="bg-white"><span class="sr-only">The commander</span></button>
+                <button aria-selected="false" class="bg-white"><span class="sr-only">The mission specialist</span></button>
+                <button aria-selected="false" class="bg-white"><span class="sr-only">The pilot</span></button>
+                <button aria-selected="false" class="bg-white"><span class="sr-only">The crew engineer</span></button>
+            </div>
+
+            <article class="crew-info flex">
+
+                <div>
+                    <h2 class="uppercase ff-serif fs-300 text-lightweight text-accent">Commander</h2>
+                    <p class="uppercase ff-serif fs-700 text-lightweight">Douglas Hurley</p>
+                </div>
+                
+                <p class="ff-serif">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+                    and former NASA astronaut. He launched into space for the third time as 
+                    commander of Crew Dragon Demo-2.
+                </p>
+
+            </article>
+        
+        
+        
+
+
+    </main>
+
+</body>
+
+</html>
+
